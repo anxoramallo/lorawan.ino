@@ -7,7 +7,7 @@ void setup() {
   delay(500);
   Serial.println("AT+NETWORKID=3");  //=3~15,18(default18)
   delay(500);
-  Serial.println("AT+BAND=928000000");  //915M a 928M --> Caso Colombia
+  Serial.println("AT+BAND=868000000");  //868Mh
   delay(1500);
 }
 void loop() {
